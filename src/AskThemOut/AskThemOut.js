@@ -35,7 +35,7 @@ const AskThemOut=()=>{
            <Image src={src}/>
            <ButtonWrapper className='btn-grp'>
                 <Button className="reachable" onClick={()=>{yesBtnOnclick()}}>Yes</Button>
-                <Button style={style} className='notReachable' onMouseOver={()=>{noBtnMouseOver(height, width)}}>No</Button>
+                <Button style={style} className='notReachable' onClick={()=>{noBtnMouseOver(height, width)}}>No</Button>
                 <DisplayText className="displayonhover" text=" Thanks for the yes, but did you try clicking no"/>
            </ButtonWrapper>           
         </AskThemOutWrapper>
