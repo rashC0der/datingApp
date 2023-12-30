@@ -38,7 +38,7 @@ const AskThemOutWrapper = styled.div.withConfig({
             }
             .reachable:hover~.displayonhover{
               display:block;
-              // animation: seconds 2.3s ease-in-out forwards;
+              animation: seconds 2.3s ease-in-out forwards;
              }
           
             @keyframes seconds {
@@ -48,10 +48,7 @@ const AskThemOutWrapper = styled.div.withConfig({
               100% {
                 opacity: 0;
               }
-              img{
-                border:2px solid blue;
-                height:300px;
-              }
+              
 
              
             
