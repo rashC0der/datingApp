@@ -3,7 +3,7 @@ const { default: styled } = require('styled-components');
 const AskThemOutWrapper = styled.div.withConfig({
     displayName: 'AskThemOutWrapper'
   })`
-           
+ 
             @media (max-width: 767px) {
               grid-column:1/-1;
             }
@@ -22,14 +22,13 @@ const AskThemOutWrapper = styled.div.withConfig({
               display:none;
               position:absolute;
               width:150px;
-              top:50%;
+              top:55%;
               left:25%;
               font-size:20px;
               @media (min-width:768px) and (max-width: 1024px) {
               left:15%;
               }
               @media (min-width:368px) and (max-width: 767px) {
-                top:50%;
               left:10%;
               }
               @media (max-width: 367px) {
@@ -39,7 +38,7 @@ const AskThemOutWrapper = styled.div.withConfig({
             }
             .reachable:hover~.displayonhover{
               display:block;
-              animation: seconds 2.3s ease-in-out forwards;
+              // animation: seconds 2.3s ease-in-out forwards;
              }
           
             @keyframes seconds {
@@ -48,6 +47,10 @@ const AskThemOutWrapper = styled.div.withConfig({
               }
               100% {
                 opacity: 0;
+              }
+              img{
+                border:2px solid blue;
+                height:300px;
               }
 
              

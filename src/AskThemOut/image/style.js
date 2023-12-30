@@ -6,6 +6,7 @@ const ImageWrapper = styled.div.withConfig({
             img{
                display:block;
                margin:auto;
+               height:300px;
            }
           
   `;

@@ -10,6 +10,7 @@ const AskThemOut=()=>{
     const[height, setHeight]=useState(0)
     const[style, setStyle]=useState({})
     const[src , setSrc]=useState("https://media.tenor.com/rzFoh93VHMgAAAAi/love.gif")
+    const[text, setText]=useState("Hey!!! will you mind if I ask you out for a dinner date")
     function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -22,6 +23,7 @@ const AskThemOut=()=>{
     }
     const yesBtnOnclick=()=>{
         setSrc("https://media.tenor.com/nPJiULZnc-8AAAAi/github-sticker.gif")
+        setText("Awwwww, Thats so sweet of you!!!")
     }
     useEffect(()=>{
         setWidth(window.innerWidth)
@@ -29,7 +31,7 @@ const AskThemOut=()=>{
     },[height,width])
     return(
         <AskThemOutWrapper>
-           <DisplayText text="Hey will you mind if I ask you out for a dinner date"/>
+           <DisplayText text={text}/>
            <Image src={src}/>
            <ButtonWrapper className='btn-grp'>
                 <Button className="reachable" onClick={()=>{yesBtnOnclick()}}>Yes</Button>
