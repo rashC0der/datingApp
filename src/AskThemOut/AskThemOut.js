@@ -10,8 +10,8 @@ const AskThemOut=()=>{
     const[height, setHeight]=useState(0)
     const[style, setStyle]=useState({})
     const[src , setSrc]=useState("https://media.tenor.com/rzFoh93VHMgAAAAi/love.gif")
-    const[text, setText]=useState("Hey!!! will you mind if I ask you out for a dinner date")
-    const initialText="Hey!!! will you mind if I ask you out for a dinner date"
+    const[text, setText]=useState("Hey!!! will you care to go for a dinner date ?")
+    const initialText="Hey!!! will you care to go for a dinner date ?"
     function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -23,7 +23,7 @@ const AskThemOut=()=>{
         setStyle({top:`${randomHeight}px` ,left: `${randomWidth}px`});
         if(initialText!==text){
             setSrc("https://media.tenor.com/rzFoh93VHMgAAAAi/love.gif")
-            setText("Hey!!! will you mind if I ask you out for a dinner date")
+            setText(initialText)
         }
         
       
