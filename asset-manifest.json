@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/datingApp/static/js/main.c6a68145.js",
+    "index.html": "/datingApp/index.html",
+    "main.c6a68145.js.map": "/datingApp/static/js/main.c6a68145.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c6a68145.js"
+  ]
+}
