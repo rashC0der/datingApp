@@ -15,6 +15,9 @@ const AskThemOutWrapper = styled.div.withConfig({
             Button.notReachable{
               position:absolute;
             }
+            .reachable{
+              margin-left:80px;
+            }
             
             .displayonhover{
               background:pink;
