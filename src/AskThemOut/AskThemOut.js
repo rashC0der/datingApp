@@ -32,6 +32,7 @@ const AskThemOut=()=>{
     const yesBtnOnclick=()=>{
         setSrc("https://media.tenor.com/nPJiULZnc-8AAAAi/github-sticker.gif")
         setText("Awwwww, Thats so sweet of you!!!")
+        setStyle({});
        
     }
     const CardDisplay=()=>{
