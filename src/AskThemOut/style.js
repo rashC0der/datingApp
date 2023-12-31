@@ -18,6 +18,10 @@ const AskThemOutWrapper = styled.div.withConfig({
             .reachable{
               margin-left:80px;
             }
+            .wish-btn{
+              display:block;
+              margin:auto;
+            }
             
             .displayonhover{
               background:pink;
